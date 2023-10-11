@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(198, 227, 155);
+    text-align: center;
+    background-image: url(image/logo-removebg-preview.png);
+}
+marquee {
+    color: blueviolet;
+    text-shadow: 3px 3px 4px rgb(82, 207, 28);
+}
+span {
+    color: green;
+}
+table {
+    border: 2px solid rgb(0, 0, 0);
+    margin: auto;
+    box-shadow: 1px 1px 8px green;
+}
+th {
+    background-color: lightskyblue;
+}
+
+th,
+tr,
+td {
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+p {
+    font-weight: bold;
+    font-size: 20px;
+    color: green;
+}
+small {
+    font-size: 10px;
+    color: red;
+}
+
+.judul {
+    height: max-content;
+    background-color: bisque;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px black;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.table-content {
+    margin: auto;
+    /* height: max-content;
+    width: max-content; */
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px black;
+}
