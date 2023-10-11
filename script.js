@@ -2,7 +2,7 @@ $(document).ready(function () {
     function showData() {
         $.ajax({
             type: "get",
-            // url: "https://sheetdb.io/api/v1/29bt9hudfwzut",
+            url: "https://sheetdb.io/api/v1/29bt9hudfwzut",
             dataType: "json",
             success: function (response) {
                 swal("Yesss!", "Data Berhasil di tampilkan", "success");
