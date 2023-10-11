@@ -30,6 +30,20 @@ p {
     font-size: 20px;
     color: green;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+button {
+    box-shadow: 3px 3px 6px;
+}
+button:hover {
+    background-color: bisque !important;
+    border: none;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
 small {
     font-size: 10px;
     color: red;
@@ -52,4 +66,27 @@ small {
     background-color: blanchedalmond;
     border-radius: 10px;
     box-shadow: 3px 3px 6px black;
+}
+#tabel-data {
+    font-size: 16px;
+}
+.baju {
+    margin-bottom: 10px;
+    width: 200%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px;
+}
+.judul-logo {
+    text-decoration: underline red;
+    text-shadow: 3px 3px 3px bisque;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px black;
+}
+/* ukuran hp */
+@media screen and(max-width: 768px) {
+    #table-data {
+        font-size: 12px;
+    }
 }
